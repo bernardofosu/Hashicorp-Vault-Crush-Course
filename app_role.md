@@ -115,7 +115,7 @@ auth = {
   "wrap_info": null,
   "warnings": null,
   "auth": {
-    "client_token": "[VAULT_TOKEN_EXAMPLE]",
+    "client_token": "<VAULT_TOKEN_EXAMPLE>",
     "accessor": "R6ANnvu9JrEcNHl3",
     "policies": [
       "default",

@@ -113,7 +113,7 @@ After login, Vault will return a token like this:
   "data": null,
   "warnings": null,
   "auth": {
-    "client_token": "[VAULT_TOKEN_EXAMPLE]",
+    "client_token": "hvs.CAESIB3vla5f_EXZ1H-J88dnP9_zwOiL26",
     "accessor": "On60iopVt",
     "policies": [
       "default",
@@ -139,7 +139,7 @@ After login, Vault will return a token like this:
 Run this in your terminal before starting your app:
 ```sh
 export VAULT_ADDR=http://127.0.0.1:8200
-export VAULT_NODE_TOKEN="[VAULT_TOKEN_EXAMPLE]"
+export VAULT_NODE_TOKEN="hvs.CAESIB3vlhMCa5f_EXZ1H-J8"
 ```
 
 # 🚀 Vault Authentication Successful
@@ -212,7 +212,7 @@ Instead of exporting the **root** token, store and use the **new user's token**.
 
 ```sh
 export VAULT_ADDR=http://127.0.0.1:8200
-export VAULT_TOKEN=[VAULT_TOKEN_EXAMPLE]  # Use node-user's token
+export VAULT_TOKEN=hvs.FAKE-TOKEN-123456  # Use node-user's token
 ```
 
 Now, when your **Node.js app** fetches secrets, it will:
@@ -258,7 +258,7 @@ After logging in, you should see a response with a **client token** like this:
 ```json
 {
   "auth": {
-    "client_token": "[VAULT_TOKEN_EXAMPLE]",
+    "client_token": "hvs.XXXXX-XXXXX",
     "policies": ["default", "node-app"],
     "lease_duration": 2764800,
     "renewable": true
