@@ -107,7 +107,7 @@ curl --request POST \
 🛡 Successful Response Example
 ```sh
 auth = {
-  "request_id": "bdce8aab-b9c8-be1a-edeb-71b63eaa6e90",
+  "request_id": "bdce8aab-b91b63eaa6e90",
   "lease_id": "",
   "renewable": false,
   "lease_duration": 0,
@@ -116,7 +116,7 @@ auth = {
   "warnings": null,
   "auth": {
     "client_token": "[VAULT_TOKEN_EXAMPLE]",
-    "accessor": "R6ANnvu9JrEcNHl9f5BGm5W3",
+    "accessor": "R6ANnvu9JrEcNHl3",
     "policies": [
       "default",
       "mongo-readonly"
@@ -130,7 +130,7 @@ auth = {
     },
     "lease_duration": 2764800,
     "renewable": true,
-    "entity_id": "50ae0a45-6242-1e50-8215-7ae9a855c46a",
+    "entity_id": "50ae0a45-6242-1e555c46a",
     "token_type": "service",
     "orphan": true,
     "mfa_requirement": null,
