@@ -1,0 +1,1 @@
+regex:\bhvs\.[A-Za-z0-9._-]+==>[VAULT_TOKEN_EXAMPLE]
