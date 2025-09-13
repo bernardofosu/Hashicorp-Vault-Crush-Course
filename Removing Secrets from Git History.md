@@ -2,7 +2,17 @@
 
 When GitHub blocks your push because of leaked secrets, you have **3 main options** to clean history. 🚀
 
----
+
+## ❌ GitHub Push Error
+
+```
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote: - Push cannot contain secrets
+remote: —— HashiCorp Vault Service Token ——————————————
+remote:   commit: 8a47917d87514b044173b26d2c21f74c10da974c
+remote:   path: app_role.md:118
+error: failed to push some refs to 'https://github.com/bernardofosu/Hashicorp-Vault-Crush-Course.git'
+```
 
 ## 🔑 Option 1) **BFG Repo-Cleaner** (no Python needed; works on Win/Linux)
 
@@ -157,3 +167,5 @@ vault token revoke <the-leaked-token>
 
 ✨ I already tried **Option 1 (BFG on Linux)** and it worked.
 Still need to test 🪟 Windows + 🐍 git filter-repo + ✂️ interactive rebase.
+
+
